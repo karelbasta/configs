@@ -13,10 +13,6 @@ alias neo="neofetch"
 # Power options
 alias shutdown="wsl.exe --terminate Arch"
 
-# Quick folder access
-alias school="cd /mnt/c/Users/basta/Documents/Personal/School"
-alias it="cd /mnt/c/Users/basta/Documents/Personal/Information\ technology"
-
 # Lighthouse
 alias li="lighthouse"
 alias lperf="lighthouse --only-categories=performance"
