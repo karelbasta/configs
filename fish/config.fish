@@ -23,6 +23,7 @@ alias gadd="git add"
 alias gcommit="git commit"
 alias gpush="git push"
 alias gpull="git pull"
+alias git coomit ="git commit"
 
 # Navigation
 function ..    ; cd .. ; end
