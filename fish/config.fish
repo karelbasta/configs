@@ -1,9 +1,12 @@
+# Path
+export PATH="$PATH:/home/bastakka/.local/bin"
+
 # Editor
 set EDITOR "vim"
 alias vi="vim"
 
 # npm
-set NPM_PACKAGES "/home/bastakka/.npm_packages"
+set NPM_PACKAGES "/home/bastakka/.npm-global"
 export PATH="$PATH:$NPM_PACKAGES/bin"
 export MANPATH="$MANPATH:$NPM_PACKAGES/share/man"
 
