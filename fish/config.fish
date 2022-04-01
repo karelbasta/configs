@@ -13,9 +13,6 @@ export MANPATH="$MANPATH:$NPM_PACKAGES/share/man"
 # Neofetch
 alias neo="neofetch"
 
-# Power options
-alias shutdown="wsl.exe --terminate Arch"
-
 # Lighthouse
 alias li="lighthouse"
 alias lperf="lighthouse --only-categories=performance"
