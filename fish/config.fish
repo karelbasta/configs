@@ -1,6 +1,9 @@
 # Path
 export PATH="$PATH:/home/bastakka/.local/bin"
 
+# Wholesome linux
+alias please="sudo"
+
 # Editor
 set EDITOR "vim"
 export VISUAL="vim"
