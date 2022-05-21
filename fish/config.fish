@@ -14,6 +14,9 @@ export MANPATH="$MANPATH:$NPM_PACKAGES/share/man"
 set JAVA_HOME "/usr/lib/jvm/default"
 export PATH="$JAVA_HOME/bin:$PATH"
 
+# cp alias
+alias cp="rsync -ah --inplace --no-whole-file --info=progress2"
+
 # Neofetch
 alias neo="neofetch"
 
