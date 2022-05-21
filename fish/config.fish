@@ -1,4 +1,4 @@
-# Path
+# Pip user only global package path
 export PATH="$PATH:/home/bastakka/.local/bin"
 
 # Wholesome linux
