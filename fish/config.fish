@@ -5,13 +5,11 @@ export PATH="$PATH:/home/bastakka/.local/bin"
 alias please="sudo"
 
 # Editor
-set EDITOR "vim"
 export VISUAL="vim"
 export EDITOR="vim"
 alias vi="vim"
 
 # npm
-set NPM_PACKAGES "/home/bastakka/.npm-global"
 set NPM_PACKAGES "/home/bastakka/.npm_packages"
 export PATH="$PATH:$NPM_PACKAGES/bin"
 export MANPATH="$MANPATH:$NPM_PACKAGES/share/man"
@@ -36,7 +34,6 @@ alias gadd="git add"
 alias gcommit="git commit"
 alias gpush="git push"
 alias gpull="git pull"
-alias git coomit ="git commit"
 
 # Navigation
 function ..    ; cd .. ; end
