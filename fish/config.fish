@@ -31,6 +31,44 @@ function ...   ; cd ../.. ; end
 function ....  ; cd ../../.. ; end
 function ..... ; cd ../../../.. ; end
 
+# Extract
+function extract
+        if test $argv && test -e $argv
+                switch $argv
+                case '*.tar.bz2'
+                        tar xjf $argv
+                case '*.tar.gz'
+                        tar xzf $argv
+                case "*.bz2"
+                        bunzip2 $argv
+                case "*.rar"
+                        unar x $argv
+                case "*.gz"
+                        gunzip $argv
+                case "*.tar"
+                        tar xf $argv
+                case "*.tbz2"
+                        tar xjf $argv
+                case "*.tgz"
+                        tar xzf $argv
+                case "*.zip"
+                        unzip $argv
+                case "*.Z"
+                        uncompress $argv
+                case "*.7z"
+                        7z x $argv
+                case "*.deb"
+                        ar x $argv
+                case "*.tar.xz"
+                        tar xf $argv
+                case '*'
+                        echo "Could not determine file type or cannot be extracted"
+                end
+        else
+                echo "No file provided"
+        end
+end
+
 if status is-interactive
     # Commands to run in interactive sessions can go here
 end
