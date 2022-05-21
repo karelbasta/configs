@@ -7,6 +7,7 @@ alias vi="vim"
 
 # npm
 set NPM_PACKAGES "/home/bastakka/.npm-global"
+set NPM_PACKAGES "/home/bastakka/.npm_packages"
 export PATH="$PATH:$NPM_PACKAGES/bin"
 export MANPATH="$MANPATH:$NPM_PACKAGES/share/man"
 
