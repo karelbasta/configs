@@ -3,6 +3,8 @@ export PATH="$PATH:/home/bastakka/.local/bin"
 
 # Editor
 set EDITOR "vim"
+export VISUAL="vim"
+export EDITOR="vim"
 alias vi="vim"
 
 # npm
