@@ -10,6 +10,10 @@ set NPM_PACKAGES "/home/bastakka/.npm-global"
 export PATH="$PATH:$NPM_PACKAGES/bin"
 export MANPATH="$MANPATH:$NPM_PACKAGES/share/man"
 
+# Java
+set JAVA_HOME "/usr/lib/jvm/default"
+export PATH="$JAVA_HOME/bin:$PATH"
+
 # Neofetch
 alias neo="neofetch"
 
