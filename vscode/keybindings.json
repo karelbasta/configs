@@ -1,0 +1,19 @@
+// Place your key bindings in this file to override the defaultsauto[]
+[
+  {
+    "key": "ctrl+shift+B",
+    "command": "editor.action.insertSnippet",
+    "when": "editorLangId == latex && editorTextFocus",
+    "args": {
+      "snippet": "\\textbf{${TM_SELECTED_TEXT}$0}"
+    }
+  },
+  {
+    "key": "ctrl+shift+I",
+    "command": "editor.action.insertSnippet",
+    "when": "editorLangId == latex && editorTextFocus",
+    "args": {
+      "snippet": "\\textit{${TM_SELECTED_TEXT}$0}"
+    }
+  }
+]
